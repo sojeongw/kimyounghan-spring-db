@@ -20,9 +20,6 @@ import static hello.kimyounghanjdbc.connection.ConnectionConst.URL;
 import static hello.kimyounghanjdbc.connection.ConnectionConst.USERNAME;
 import static org.assertj.core.api.Assertions.assertThatThrownBy;
 
-/*
-* 기본 돋작. 트랜잭션이 없어서 문제 발생
-*  */
 @ExtendWith(MockitoExtension.class)
 class MemberServiceV3_1Test {
 
